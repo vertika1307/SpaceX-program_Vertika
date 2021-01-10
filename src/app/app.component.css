@@ -1,0 +1,88 @@
+.space-details-container{
+    display: flex;
+    background-color: #eaeaea7a;
+}
+.space-card-container{
+    width: 152px;
+    height: 288px;
+    border: 1px #eaeaea solid;
+    box-shadow: 4px 4px 4px  #eaeaea7a;
+    
+}
+.cont{
+    margin-left: 20px;
+    margin-right: 19px;
+    margin-top: 20px;
+}
+.inner-div{
+    margin-left: 16px;
+}
+.img{
+    width: 132px;
+    height: 132px;
+    background-color: #eaeaea7a;
+}
+.mission-name{
+    color: darkblue;
+}
+.mission-id{
+    display: flex;
+    color: #443f3fbd;
+    font-weight: bold;
+    font-size: 12px;
+}
+.launch-year{
+    color: #0063de;font-weight: 500;
+}
+.mission{
+    color:#0063de
+}
+.head{
+    background-color: #eaeaea7a;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 13px;
+    padding-left: 19px;
+}
+.main-div{
+    background-color: #eaeaea7a;
+    overflow: hidden;
+}
+.left-div{
+    float: left;
+    width: 12%;
+    margin-top: 21px;
+    background-color:white;
+}
+.filter{
+    font-weight: 500;
+    font-size: 14px;
+}
+.launch-text{
+    font-size: 11px;
+    margin-left: 13px;
+    border-bottom: 1px solid #eaeaea;
+    width: 72px;
+    display: inline;
+}
+.line{
+    margin-left: 8px;
+    border: 1px solid #5f5555;
+    width: 85px;
+}
+.button-year{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.dev-name{
+    margin-left: 34%;
+    font-weight: 500;
+}

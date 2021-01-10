@@ -1,0 +1,75 @@
+<div class="head">SpaceX Launch Programs</div>
+<div class="col-xs-11 main-div">
+<div class="col-xs-6 left-div">
+  <div class="filter">Filters</div>
+  <div class="launch-text">Launch Year</div>
+
+  <div>
+    <button class="button-year">2006</button>
+    <button class="button-year">2007</button>
+  </div>
+  <div>
+    <button class="button-year" (click)="clickHandler()">2008</button>
+    <button class="button-year">2009</button>
+  </div>
+  <div>
+    <button class="button-year">2010</button>
+    <button class="button-year">2011</button>
+  </div>
+  <div>
+    <button class="button-year">2012</button>
+    <button class="button-year">2013</button>
+  </div>
+  <div>
+    <button class="button-year">2014</button>
+    <button class="button-year">2015</button>
+  </div>
+  <div>
+    <button class="button-year">2016</button>
+    <button class="button-year">2017</button>
+  </div>
+  <div>
+    <button class="button-year">2018</button>
+    <button class="button-year">2019</button>
+  </div>
+  <div>
+    <button class="button-year">2020</button>
+  </div>
+  <div class="launch-text">Successful Launch</div>
+  
+  <div>
+    <button class="button-year">True</button>
+    <button class="button-year">False</button>
+  </div>
+  <div class="launch-text">Successful Landing</div>
+   <div>
+    <button class="button-year">True</button>
+    <button class="button-year">False</button>
+  </div>
+</div>
+<div class="col-xs-6 space-details-container" >
+  <div *ngFor="let spaceitem of spaceitems"  >
+    <div class="col-xs-3 cont">
+      <mat-card class="space-card-container">
+        <div class="inner-div">
+          <img class="img" src="{{spaceitem.links.mission_patch}}" />
+          <span class="mission-name">{{ spaceitem.mission_name}} #{{spaceitem.flight_number}} </span>
+          <span class="mission-id">Mission Ids:</span>
+          <span class="mission">List Mission Ids:</span>
+          <span class="mission-id"> Launch Year: <span class="launch-year"> &nbsp;{{ spaceitem.launch_year
+              }}</span></span>
+          <span class="mission-id"> Successful Launch: <span class="launch-year"> &nbsp;{{ spaceitem.launch_success}}
+              </span></span>
+          <span class="mission-id">Successful Landing:</span>
+          <span class="mission">Launch_Landing</span>
+        </div>
+      </mat-card>
+    </div>
+  </div>
+  
+
+
+</div>
+<div class="col-xs-1 launch-text dev-name">Developed By:VERTIKA BHARDWAJ</div>
+
+
